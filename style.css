@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Apply a background image to the hero section */
+.hero {
+  position: relative;
+  height: 100vh;
+  background: url(Images/books1.png) center/cover no-repeat;
+}
+
+.navbar {
+  font-weight: 200;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.nav-item {
+  margin-right: 1.5rem;
+}
+
+h1 {
+  font-size: 80px;
+  font-family: "Roboto Flex", sans-serif;
+  color: white;
+  margin-top: 0;
+}
+
+button {
+  background-color: #FCC419;
+  outline: none;
+  border: none;
+  color: #000;
+  padding: 10px 25px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  margin-top: 1.5rem;
+}
+
+/* Media Query for responsive layouts */
+@media screen and (max-width: 768px) {
+  button {
+    margin-left: 1.4rem;
+  }
+
+  .hero-intro {
+    font-size: 10px;
+  }
+
+  .navbar-brand {
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 1.4rem;
+  }
+}
