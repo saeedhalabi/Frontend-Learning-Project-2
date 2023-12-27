@@ -36,7 +36,7 @@ h1 {
 }
 
 button {
-  background-color: #FCC419;
+  background-color: #fcc419;
   outline: none;
   border: none;
   color: #000;
@@ -45,16 +45,20 @@ button {
   letter-spacing: 2px;
   border-radius: 5px;
   margin-top: 1.5rem;
+  transition: .4s ease-out;
+}
+
+button:hover {
+  background-color: #000;
+  color: white;
+  border: 1px solid #fcc419;
 }
 
 /* Media Query for responsive layouts */
 @media screen and (max-width: 768px) {
   button {
-    margin-left: 1.4rem;
-  }
-
-  .hero-intro {
-    font-size: 10px;
+    margin-left: 1rem;
+    font-size: 20px;
   }
 
   .navbar-brand {
