@@ -21,6 +21,10 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&family=Roboto+Flex:opsz@8..144&family=Seaweed+Script&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
     <title>The Quest</title>
   </head>
   <body>
@@ -72,23 +76,85 @@
           Embark on <br />
           Infinite Stories
         </h1>
-        <button class="chapter-btn">Chapters</button>
+        <button class="chapter-btn"><a href="#chapter">Chapters</a></button>
       </div>
     </section>
     <section
-      class="about-content text-white d-flex align-items-center justify-content-around pt-4" id="about"
+      class="about-content text-white d-flex align-items-center justify-content-around pt-4"
+      id="about"
     >
       <h3>
         Quest <br />
         Unveiled
       </h3>
       <div>
-        <h5>Welcome to Quest Unveiled</h5>
+        <h5 class="quest-title">Welcome to Quest Unveiled</h5>
         <p>
           Immerse in Kai's adventures--trials, discoveries, and unity. <br />
           In this vibrant community, storytelling transcends pages. <br />
           Join us in exploring boundless realms of imagination and friendship.
         </p>
+      </div>
+    </section>
+    <section class="quest-wrapper" id="chapter">
+      <h1>Quests <i class="bi bi-arrow-down"></i></h1>
+      <div class="grid-container">
+        <div class="card" style="width: 18rem">
+          <img src="images/village-1.png" class="card-img-top" alt="Village" />
+          <div class="card-body">
+            <h5 class="card-title">Chapter 1: Beginnings</h5>
+            <p class="card-text">
+               Embark on a journey with young adventurer Kai in a quaint
+              village.
+            </p>
+            <a href="#" class="btn btn-warning px-4">Explore</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img
+            src="images/mysterious-creature.JPG"
+            class="card-img-top"
+            alt="Village"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Chapter 2: Trials</h5>
+            <p class="card-text">
+               Kai's journey: dense forests, puzzles, mythical encounters. New
+              friends, teamwork, determination
+            </p>
+            <a href="#" class="btn btn-warning px-4">Explore</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img
+            src="images/cave-exploring.JPG"
+            class="card-img-top"
+            alt="Village"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Chapter 3: Discovery</h5>
+            <p class="card-text">
+               Adventurers find hidden cave, unlock secrets. Treasure brings
+              prosperity, but moral dilemma arises
+            </p>
+            <a href="#" class="btn btn-warning px-4">Explore</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img
+            src="images/dark-figure.png"
+            class="card-img-top"
+            alt="Village"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Chapter 4: Discovery</h5>
+            <p class="card-text">
+              Figures seek treasure. Kai and friends navigate, testing
+              loyalties. Character shines.
+            </p>
+            <a href="#" class="btn btn-warning px-4">Explore</a>
+          </div>
+        </div>
       </div>
     </section>
   </body>
