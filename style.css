@@ -116,6 +116,35 @@ h1 {
   padding: 30px;
 }
 
+.chapter-1-wrapper {
+  background-color: #000;
+  color: #fff;
+}
+
+.chapter-1-wrapper img {
+  width: 100%;
+  height: 481px;
+  max-width: 488px;
+  border-radius: 3px;
+}
+
+.chapter-1-wrapper .yellow {
+  color: #fcc419;
+}
+
+.chapter-1-wrapper p {
+  line-height: 3;
+  font-size: small;
+}
+
+.chapter-1-paragraph-image {
+  width: 100%;
+  max-width: 419px;
+  height: 619px;
+}
+
+
+
 /* Media Query for responsive layouts */
 @media screen and (max-width: 768px) {
   h1 {
@@ -161,5 +190,92 @@ h1 {
     grid-template-columns: repeat(1, 1fr);
     place-items: center;
     text-align: center;
+  }
+
+  .chapter-1-wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .chapter-1-wrapper img {
+    border-radius: 0;
+  }
+
+  .chapter-1-wrapper p {
+    padding: 0 14px;
+  }
+
+  .paragraph-chp1-part2 {
+    margin-top: 30px;
+  }
+}
+
+/* Media query for iPads (width between 800px and 900px) */
+@media screen and (min-width: 800px) and (max-width: 900px) {
+  h1 {
+    font-size: 30px;
+    padding: 15px;
+  }
+
+  .chapter-btn {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+
+  .navbar-brand {
+    font-size: 20px;
+    margin-top: 1rem;
+    padding: 8px;
+  }
+
+  .about-content {
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+
+  .about-content h3 {
+    font-size: 26px;
+    margin-bottom: 8px;
+  }
+
+  .card-img-top {
+    height: 120px;
+  }
+
+  .grid-container {
+    padding: 15px;
+  }
+
+  .card {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .chapter-1-wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .chapter-1-wrapper img {
+    border-radius: 0;
+    width: 100%;
+  }
+
+  .chapter-1-wrapper p {
+    padding: 0 15px;
+    margin-bottom: 15px;
+  }
+
+  .paragraph-chp1 {
+    margin-bottom: 15px;
+  }
+
+  .chapter-1-paragraph-image {
+    width: 100%;
+  }
+
+  .paragraph-chp1-part2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
 }
