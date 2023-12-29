@@ -143,7 +143,15 @@ h1 {
   height: 619px;
 }
 
+.chapter-2-wrapper {
+  padding: 14px;
+}
 
+.chapter-2-wrapper img {
+  width: 100%;
+  max-width: 474.9px;
+  height: 481px;
+}
 
 /* Media Query for responsive layouts */
 @media screen and (max-width: 768px) {
