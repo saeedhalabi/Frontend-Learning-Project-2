@@ -9,6 +9,11 @@ img {
   object-fit: cover;
 }
 
+/* For all paragraphs */
+p {
+  font-weight: 600;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -158,6 +163,17 @@ h1 {
   height: auto;
 }
 
+/* The End section */
+.end-section {
+  background-color: #000;
+  color: #fff;
+  line-height: 3;
+}
+
+.end-section .yellow {
+  color: #fcc419;
+}
+
 /* Media Query for responsive layouts */
 @media screen and (max-width: 768px) {
   h1 {
@@ -224,6 +240,11 @@ h1 {
 
   .chapter-1-continuation {
     margin-top: 30px;
+  }
+
+  .end-section {
+    font-size: 13px;
+    padding: 14px;
   }
 }
 
