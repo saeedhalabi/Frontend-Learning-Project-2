@@ -157,11 +157,6 @@ h1 {
   height: auto;
 }
 
-/* Additional styles for specific images */
-.kai-dense-forest-image {
-  height: auto;
-}
-
 /* Media Query for responsive layouts */
 @media screen and (max-width: 768px) {
   h1 {
