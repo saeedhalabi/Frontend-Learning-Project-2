@@ -151,7 +151,8 @@ h1 {
 /* Chapter 2 and 3 section */
 .chapter-2-wrapper img,
 .chapter-3-wrapper img,
-.kai-dense-forest-image {
+.kai-dense-forest-image,
+.kai-and-friends {
   width: 100%;
   max-width: 474.9px;
   height: auto;
