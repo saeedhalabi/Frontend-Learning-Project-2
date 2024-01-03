@@ -165,6 +165,8 @@ h1 {
 
 /* The End section */
 .end-section {
+  height: 500px;
+  width: 100%;
   background-color: #000;
   color: #fff;
   line-height: 3;
@@ -172,6 +174,19 @@ h1 {
 
 .end-section .yellow {
   color: #fcc419;
+}
+
+/* Account */
+.account {
+  width: 100%;
+  max-width: 1440px;
+  height: auto;
+  background-color: #131313;
+}
+
+.account h1 {
+  text-transform: uppercase;
+  letter-spacing: 5px;
 }
 
 /* Media Query for responsive layouts */
@@ -245,6 +260,7 @@ h1 {
   .end-section {
     font-size: 13px;
     padding: 14px;
+    height: auto;
   }
 }
 
