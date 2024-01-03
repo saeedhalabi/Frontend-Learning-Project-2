@@ -209,8 +209,13 @@ input {
 }
 
 input:hover {
-  border-color: #fcc419;
-  cursor:context-menu;
+  border-color: #fcc107;
+  cursor: context-menu;
+}
+
+input:focus {
+  border-color: #4caf50;
+  cursor: context-menu;
 }
 
 /* Media Query for responsive layouts */
