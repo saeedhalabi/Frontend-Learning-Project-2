@@ -190,7 +190,7 @@ h1 {
   letter-spacing: 5px;
 }
 
-label {
+.account-input label {
   display: block;
   margin-bottom: 8px;
 }
@@ -198,9 +198,19 @@ label {
 input {
   width: 100%;
   max-width: 400px;
-  padding: 8px;
-  margin-bottom: 16px;
+  padding: 15px;
+  margin-bottom: 50px;
   box-sizing: border-box;
+  outline: transparent;
+  border: 1px solid #eee;
+  background-color: #131313;
+  color: #ced4da;
+  transition: 0.3s all ease-in;
+}
+
+input:hover {
+  border-color: #fcc419;
+  cursor:context-menu;
 }
 
 /* Media Query for responsive layouts */
