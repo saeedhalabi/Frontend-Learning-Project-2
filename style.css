@@ -188,6 +188,7 @@ h1 {
 .account h1 {
   text-transform: uppercase;
   letter-spacing: 5px;
+  font-weight: bold;
 }
 
 .account-input label {
@@ -216,6 +217,15 @@ input:hover {
 input:focus {
   border-color: #4caf50;
   cursor: context-menu;
+}
+
+/* Styling for the submit button */
+.btn {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 12px 60px;
 }
 
 /* Media Query for responsive layouts */
@@ -360,5 +370,11 @@ input:focus {
   .chapter-1-continuation {
     margin-top: 15px;
     margin-bottom: 15px;
+  }
+
+  .end-section {
+    font-size: 13px;
+    padding: 14px;
+    height: auto;
   }
 }
