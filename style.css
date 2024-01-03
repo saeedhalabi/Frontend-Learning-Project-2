@@ -220,12 +220,16 @@ input:focus {
 }
 
 /* Styling for the submit button */
-.btn {
+.btn-light {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: bold;
   border-radius: 20px;
   padding: 12px 60px;
+}
+
+footer {
+  height: 200px;
 }
 
 /* Media Query for responsive layouts */
