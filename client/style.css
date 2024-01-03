@@ -189,6 +189,7 @@ h1 {
   text-transform: uppercase;
   letter-spacing: 5px;
   font-weight: bold;
+  font-size: 28px;
 }
 
 .account-input label {
@@ -251,7 +252,6 @@ footer {
   .navbar-brand {
     font-size: 24px;
     font-weight: 400;
-    margin-top: 1.4rem;
   }
 
   .about-content {
