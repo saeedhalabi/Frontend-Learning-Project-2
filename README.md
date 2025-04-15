@@ -40,7 +40,6 @@ Embark on an extraordinary adventure with "The Quest," a captivating web experie
    - **Description:** Enhance aesthetics with a combination of Poppins, Roboto Flex, and Seaweed Script fonts.
 
 # Links
-- Demo Video: [Watch the Demo Video](https://youtu.be/1r1C83sw3e4?si=B6Xqh_L50Sj13tAY)
 - Web Browser: [Download Google Chrome](https://www.google.com/chrome/)
 - Figma Design: [View Figma Design](https://www.figma.com/file/IFJW9TqzqVdRxHZG7BuqLl/Quest?type=design&node-id=0%3A1&mode=design&t=PA4tCTeAwgPlATiZ-1)
 
